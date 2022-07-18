@@ -9,7 +9,12 @@
 		<title>Ted Langhorst</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<!-- Bootstrap CSS -->
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+		<!-- Template CSS -->
 		<link rel="stylesheet" href="assets/css/main.css" />
+
+
 	</head>
 	<body class="is-preload">
 
@@ -81,7 +86,11 @@
 					</header>
 
 					<p style="text-align:left">
-						I'm a PhD Candidate at the University of North Carolina working to improve remote sensing of river processes and form. I grew up in Columbus, Ohio, just a few miles from Ohio State's campus where I got my B.S. in Geophysics. I started research as an undergraduate by building a hydrodynamic model of the Olentangy River, a small, urban stream that flows through the city. I now work on large rivers all over the world using field methods and a nearly 40-year history of satellite images to measure long-term river bank migration and instantaneous suspended sediment concentrations.
+						I'm a PhD Candidate at the University of North Carolina working to improve remote sensing of river processes and form.
+						I grew up in Columbus, Ohio, just a few miles from Ohio State's campus where I got my B.S. in Geophysics.
+						I started research as an undergraduate by building a hydrodynamic model of the Olentangy River, a small, urban stream that flows through the city.
+						I now work on large rivers all over the world using field methods and a nearly 40-year history of satellite images to measure long-term
+						river bank migration and instantaneous suspended sediment concentrations.
 					</p>
 
 					<a class="image featured"><img src="images/Sag/DSC_0423_crop.JPG" alt="" /></a>
@@ -97,37 +106,94 @@
 						<h2>Projects</h2>
 					</header>
 
-					<p>
-						projects overview
-					</p>
-
 					<div class="row">
 						<div class="col-4 col-12-mobile">
 							<article class="item">
-								<a href="project_template.html" class="image fit"><img src="images/Sag/EllieInstall.JPG" alt="" /></a>
+								<a href="#modalSag" data-toggle="modal" class="image fit"><img src="images/Sag/EllieInstall.JPG" alt="" /></a>
 								<header>
-									<h3>Sediment transport on the Sagavaniroktok River, Alaska, USA.</h3>
+									<h3>Sagavanirktok River</h3>
 								</header>
+
+								<!-- Modal -->
+								<div class="modal fade" id="modalSag" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+								  <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+								    <div class="modal-content">
+								      <div class="modal-header">
+								        <h5 class="modal-title" style="font-size:125%; font-weight:bold">Sediment transport on the Sagavanirktok River, Alaska.</h5>
+								      </div>
+								      <div class="modal-body">
+												<p style="text-align:left; font-size:90%">
+													Remote sensing of river discharge and suspended sediment concentration has seen big improvements in the past decade.
+													It's now possible to combine these algorithms to use satellite images to estimate the <b>sediment flux</b> of a river.
+													This work is currently in preparation, but has been years in the making, with the first remote sensing work being completed in 2019
+													and field work in 2021 and 2022 for validation data. This project was the impetus for OpenOBS, after realizing I did not have the budget
+													for even 1 deployable commercial turbidity sensor. We have used these sensors extensively in the Sag, deploying 10 each year in order to
+													monitor months of turbidity changes in high resolution.
+												</p>
+
+												<a class="image fit"><img src="images/Sag/EllieInstall.JPG"/></a>
+												<p style="font-size:80%">Ellie Friedmann installing sensors in the Sag.</p>
+
+												<a class="image fit"><img src="images/Sag/OBS_setup.JPG"/></a>
+												<p style="font-size:80%">The sensor setup for one site (2 OpenOBS and a pressure logger) before being installed in 2022.</p>
+
+												<a class="image fit"><img src="images/Sag/OBS1.JPG"/></a>
+												<p style="font-size:80%">The Sag at low flow in August 2021, showing off its gravel bed and headwaters in the Brooks Range Mountains.</p>
+
+												<a class="image fit"><img src="images/Sag/PullingRebar.jpg"/></a>
+												<p style="font-size:80%">Pulling rebar-mounted sensors at the end of the 2021 season.</p>
+
+								      </div>
+								    </div>
+								  </div>
+								</div>
 							</article>
 
+
 							<article class="item">
-								<a href="#" class="image fit"><img src="images/Sag/IGEA2021.jpg" alt="" /></a>
+								<a href="#modalIGEA" data-toggle="modal" class="image fit"><img src="images/Sag/IGEA2021.jpg" alt="" /></a>
 								<header>
-									<h3>Integrating Geosciences and Engineering in the Arctic (IGEA)</h3>
+									<h3>IGEA</h3>
 								</header>
+
+								<!-- Modal -->
+								<div class="modal fade" id="modalIGEA" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+								  <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+								    <div class="modal-content">
+								      <div class="modal-header">
+								        <h5 class="modal-title" style="font-size:125%; font-weight:bold">Integrating Geosciences and Engineering in the Arctic (IGEA).</h5>
+								      </div>
+								      <div class="modal-body">
+												<p style="text-align:left; font-size:90%">
+													text
+												</p>
+
+												<a class="image fit"><img src="images/Sag/DSC_0435.JPG"/></a>
+												<p style="font-size:80%">Likely explaining something tangential that I found interesting</p>
+
+												<a class="image fit"><img src="images/Sag/IGEA2021.jpg"/></a>
+												<p style="font-size:80%">Group 2 from the 2021 IGEA class on a snowy day.</p>
+
+												<a class="image fit"><img src="images/Sag/Students.JPG"/></a>
+												<p style="font-size:80%">Group 1 from 2022 navigating to their sites, walking 2km over frozen tundra.</p>
+
+								      </div>
+								    </div>
+								  </div>
+								</div>
 							</article>
 						</div>
 
 						<div class="col-4 col-12-mobile">
 							<article class="item">
-								<a href="#" class="image fit"><img src="images/projects/REAL_map.png" alt="" /></a>
+								<a class="image fit"><img src="images/projects/REAL_map.png" alt="" /></a>
 								<header>
 									<h3>Riverbank Erosion and Accretion from Landsat (REAL)</h3>
 								</header>
 							</article>
 
 							<article class="item">
-								<a href="#" class="image fit"><img src="images/PAD/BoatGNSS.jpg" alt="" /></a>
+								<a class="image fit"><img src="images/PAD/BoatGNSS.jpg" alt="" /></a>
 								<header>
 									<h3>SWOT Cal/Val methods development</h3>
 								</header>
@@ -136,18 +202,12 @@
 
 						<div class="col-4 col-12-mobile">
 							<article class="item">
-								<a href="#" class="image fit"><img src="images/projects/OBS1.png" alt="" /></a>
+								<a class="image fit"><img src="images/projects/OBS1.png" alt="" /></a>
 								<header>
 									<h3>Open-source Optical Backscatter Sensor (OpenOBS): DIY Turbidity sensors</h3>
 								</header>
 							</article>
 
-							<article class="item">
-								<a href="#" class="image fit"><img src="images/pic07.jpg" alt="" /></a>
-								<header>
-									<h3>Orci Convallis</h3>
-								</header>
-							</article>
 						</div>
 					</div>
 
@@ -164,7 +224,9 @@
 					<h2>CV</h2>
 				</header>
 
-				<a href="#" class="image featured"><img src="images/pic08.jpg" alt="" /></a>
+				<p>
+					test
+				</p>
 
 			</div>
 		</section>
@@ -175,7 +237,7 @@
 			<!-- Copyright -->
 			<ul class="copyright">
 				<li>&copy; Ted Langhorst. All rights reserved.</li>
-				<li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+				<li>Design modified from: <a href="https://html5up.net/prologue">HTML5 UP</a></li>
 			</ul>
 
 		</div>
@@ -188,6 +250,10 @@
 		<script src="assets/js/breakpoints.min.js"></script>
 		<script src="assets/js/util.js"></script>
 		<script src="assets/js/main.js"></script>
+
+		<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+		<script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 
 	</body>
 </html>
