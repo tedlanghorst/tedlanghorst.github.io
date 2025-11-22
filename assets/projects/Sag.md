@@ -6,7 +6,7 @@ modalTitle: "Sediment transport on the Sagavanirktok River, Alaska"
 ---
 
 Remote sensing of river discharge and suspended sediment concentration has seen big improvements in the past decade.
-It's now possible to combine these algorithms to use satellite images to estimate the sediment flux of a river. TThis
+It's now possible to combine these algorithms to use satellite images to estimate the sediment flux of a river. This
 project was the impetus for OpenOBS, after realizing I did not have the budget for even 1 deployable commercial
 turbidity sensor. We have used these sensors extensively in the Sag, deploying 10-30 per year in order to monitor months
 of turbidity changes in high resolution.

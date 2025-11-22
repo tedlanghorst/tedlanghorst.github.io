@@ -2,13 +2,15 @@
 // Requires: marked.js (for markdown parsing) and js-yaml (for frontmatter parsing)
 
 const MODAL_PATHS = [
-  'assets/projects/DL.md',
+  'assets/projects/DL_Q.md',
+  'assets/projects/OBS_MS.md',
+  'assets/projects/DL_Flux.md',
+  'assets/projects/IGEA.md',
   'assets/projects/OBS.md',
-  'assets/projects/CalVal.md',
   'assets/projects/Clouds.md',
   'assets/projects/Sag.md',
   'assets/projects/REAL.md',
-  'assets/projects/IGEA.md'
+  'assets/projects/CalVal.md'
 ];
 
 async function loadModalMarkdown(path) {

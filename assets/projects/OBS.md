@@ -18,4 +18,7 @@ Optical backscatter sensors are instruments commonly used to determine the turbi
 *Graphical interface for programming the sensor before deploying.*
 
 ![Full schematic of the data logger.](images/OOBS/Schematic_OpenOBS_328.png)
-*Full schematic of the data logger.*
+*Full schematic of the data logger. The most interesting aspect of this datalogger in the **Power Regulation and Switching** section, where we use the real-time clock alarms to completely disconnect the battery from the rest of the datalogger between measurements. This hard shutoff eliminates the slow draining allows battery to last years depending on the sampling interval.*
+
+![Estimated and measure battery life.](images/OOBS/deploy_BatteryLife.png)
+*The sensor's estimated battery life (based on high precision current draw measurements during active logging and sleep modes), and real test data of battery life over several months.*
